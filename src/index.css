@@ -1,0 +1,202 @@
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 0px;
+  font-size: 1em;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navbar {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.nav-ul {
+ display: flex;
+ gap: 10px ;
+}
+
+.nav-li {
+  
+  list-style-type: none;
+  text-decoration: none;
+}
+.comment{
+  display: flex;
+  gap: 2rem;
+}
+
+.container{
+  border: 0.15px solid skyblue;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-align: left;
+ 
+}
+
+.home {
+  margin-bottom: 2px;
+  display:flex
+}
+.detail{
+  width: 90%;
+  line-height: 0%;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  padding: 5px; 
+}
+
+.mycard{
+  text-decoration: none;
+  margin-top: 10px;
+  /* color: white; */
+  border: 0.5px solid skyblue;
+  border-radius: 10px;
+  /* background-color: rgb(71, 16, 209); */
+}
+.mycard-inner{
+  /* color:white; */
+  width: 100%;
+  padding: 3px;
+  margin: 5px 0px;
+
+}
+.form {
+  position: absolute;
+  color: white;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+ 
+  border-radius: 4px;
+  
+  
+}
+
+
+.gg-chevron-right-o {
+  color: rgb(38, 130, 210);
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 22px;
+  height: 22px;
+  border: 2px solid;
+  border-radius: 10px
+}
+.gg-chevron-right-o::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(-45deg);
+  left: 5px;
+  top: 6px
+}
+
+
+.formcontrol {
+  line-height: 20px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.textarea {
+line-height: 12px;
+width: 100%;
+height: 110px;
+padding: 12px 20px;
+box-sizing: border-box;
+/* border: 2px solid #ccc;  */
+border-radius: 4px;
+/* background-color: #f8f8f8; */
+resize: none;
+overflow-x: scroll;
+text-align: start;
+
+}
+
+.noteimage{
+  float: right;
+  width: 150px; 
+  height: 150px; 
+  border-radius: 100px; 
+}
+
+.btn {
+  color:aliceblue;
+  background-color: rgba(48, 48, 55, 0.76);
+  border:none;
+  border-radius: 4px;
+}
+
+.list-card {
+  text-align: left;
+  border-left:10px solid rgb(45, 192, 37) ;
+  border-bottom:1px solid #4CAF50;
+  margin: px;
+  padding:6px;
+  box-shadow: inset;
+  background-color: rgb(208, 210, 210);
+
+}
+
+.list-card2 {
+  text-align: left;
+  border-left:10px solid rgb(192, 37, 37) ;
+  border-bottom:1px solid #4CAF50;
+  margin: px;
+  padding:6px;
+  box-shadow: inset;
+  background-color: rgb(162, 163, 163);
+
+}
+
+
+.mynotecard {
+  position: absolute; 
+  text-align: center;
+   margin-top: -50px;
+   padding: 6px;
+
+   border-radius: 10px;
+  
+   background-color:#ead1d1;
+   
+ }
